@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script>
+            function ChangeProps(){
+                document.getElementById("pl1").innerHTML=Date();
+                document.getElementById("pl1").style.fontSize="50px";
+            }
+            //alert('test message');
+            //confirm('are you sure?');
+        </script>
+    </head>
+    <body>
+        <!--button type="button" style="font-size: xx-large;" onclick="alert('Hello world')"> Click here </button-->
+        <button type="button" style="font-size: xx-large;" onclick="ChangeProps()"> Click here </button>
+        <p id='pl1'></p>
+    </body>
+</html>
